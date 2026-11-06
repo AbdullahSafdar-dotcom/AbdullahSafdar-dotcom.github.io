@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdullah Safdar — Flutter Developer</title>
+<meta name="description" content="Portfolio of Abdullah Safdar, Flutter Developer from Multan, Pakistan. Flutter + Firebase apps, including a farmer-to-buyer crop trading marketplace.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="#top">Abdullah Safdar</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Flutter Developer · Multan, Pakistan</p>
+      <h1>Abdullah Safdar</h1>
+      <p class="tagline">I build cross-platform mobile apps with Flutter &amp; Firebase — from real-time marketplaces to complete CRUD systems.</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-outline" href="Abdullah_Safdar_CV.pdf" download>Download CV</a>
+      </div>
+      <div class="hero-links">
+        <a href="https://github.com/AbdullahSafdar-dotcom" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/abdullah-safdar-827242403" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.fiverr.com/safdarflutter" target="_blank" rel="noopener">Fiverr</a>
+        <a href="mailto:abdullahsafdar740@gmail.com">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p>I'm Abdullah Safdar, a BS Information Technology graduate from BZU Multan with a focus on Flutter development. I built a full-stack farmer-to-buyer marketplace app using Flutter and Firebase, with authentication, real-time data, and role-based access, as well as a desktop event management system in C# and .NET. I enjoy turning ideas into practical, working software that people can actually use.</p>
+      <div class="facts">
+        <div class="fact"><span class="fact-value">BS IT, 2026</span><span class="fact-label">BZU Multan · CGPA 3.29/4.00</span></div>
+        <div class="fact"><span class="fact-value">IELTS 7.5</span><span class="fact-label">Listening 8.0 · Reading 8.0 · Speaking 7.5 · Writing 6.5</span></div>
+        <div class="fact"><span class="fact-value">Open to</span><span class="fact-label">Junior Flutter roles · Internships · Freelance app projects</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Mobile</h3>
+          <div class="chips"><span>Flutter</span><span>Dart</span><span>Android Studio</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Backend &amp; Data</h3>
+          <div class="chips"><span>Firebase Authentication</span><span>Cloud Firestore</span><span>Firebase Storage</span><span>MySQL</span><span>REST APIs</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Desktop</h3>
+          <div class="chips"><span>C#</span><span>.NET</span><span>Windows Forms</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Languages</h3>
+          <div class="chips"><span>Git</span><span>VS Code</span><span>Visual Studio</span><span>State Management</span><span>Testing Frameworks</span><span>English (IELTS 7.5)</span><span>Urdu</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <div class="project-info">
+          <h3>Direct Crop Exchange System</h3>
+          <p class="project-meta">Flutter + Firebase · Mar–Apr 2026</p>
+          <p>A full-stack mobile marketplace that connects farmers directly with buyers for crop trading — no middlemen. Farmers post crops with quantity, minimum price, grade (A/B/C) and photos; buyers place per-kg bids in real time, and farmers accept or reject them. The app ships with a full Urdu interface, role-based dashboards for Farmer, Buyer and Admin, live bid tracking, and image uploads via Firebase Storage.</p>
+          <ul class="project-points">
+            <li>Live bidding system with per-kg pricing and automatic totals</li>
+            <li>Real-time listings via Cloud Firestore streams</li>
+            <li>Firebase Authentication and role-based access control</li>
+            <li>Full CRUD workflows for listings, orders and profiles</li>
+          </ul>
+          <p class="project-stack"><strong>Stack:</strong> Flutter, Dart, Firebase Authentication, Cloud Firestore, Firebase Storage</p>
+          <a class="btn btn-small" href="https://github.com/AbdullahSafdar-dotcom/Direct-Crop-Exchange-System" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+        <div class="project-shots">
+          <figure><img src="screenshots/login.jpg" alt="Crop Exchange app login screen"><figcaption>Login (Urdu UI)</figcaption></figure>
+          <figure><img src="screenshots/dashboard.jpg" alt="Crop Exchange farmer dashboard"><figcaption>Farmer Dashboard</figcaption></figure>
+          <figure><img src="screenshots/add-crop.jpg" alt="Crop Exchange add new crop screen"><figcaption>Add New Crop</figcaption></figure>
+          <figure><img src="screenshots/received-bids.jpg" alt="Crop Exchange received bids screen"><figcaption>Received Bids</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-info">
+          <h3>Event Management System</h3>
+          <p class="project-meta">C# · .NET Windows Forms · Sep 2024–Jan 2025</p>
+          <p>A desktop application for managing events end-to-end — event creation, attendee records and bookings — with full CRUD operations, database connectivity, search and record lookup, and form validation, built for non-technical staff.</p>
+          <p class="project-stack"><strong>Stack:</strong> C#, .NET, Windows Forms, MySQL</p>
+          <a class="btn btn-small" href="https://github.com/AbdullahSafdar-dotcom/Event-Management-System" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-info">
+          <h3>RTS Factoring Console</h3>
+          <p class="project-meta">Flutter · Private project</p>
+          <p>Flutter operations console for an email-outreach platform: campaign control, mailbox warm-up tracking, replies and alerts.</p>
+          <p class="project-stack"><strong>Stack:</strong> Flutter, REST API</p>
+          <p class="muted">Private — details available on request.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <p class="timeline-date">Apr 2025 – Present</p>
+          <h3>Freelance — USA Driver Recruiter</h3>
+          <p>Sourcing and qualifying Class A CDL driver leads, outreach via WhatsApp and phone, and matching drivers with US carriers.</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">Jun – Sep 2024</p>
+          <h3>Sales Representative — IBN Trucking LLC</h3>
+          <p>Cold calling, closing leads, and customer handling.</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-date">2026</p>
+          <h3>ISPR Summer Internship Programme</h3>
+          <p>Summer internship programme, 2026.</p>
+        </div>
+      </div>
+      <h2 class="subheading">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <p class="timeline-date">2022 – 2026</p>
+          <h3>BS Information Technology — Bahauddin Zakariya University, Multan</h3>
+          <p>CGPA 3.29/4.00 · Graduated July 2026</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact">
+      <h2>Get in Touch</h2>
+      <p>Open to junior Flutter roles, internships and freelance app projects.</p>
+      <p class="contact-lines">
+        <a href="mailto:abdullahsafdar740@gmail.com">abdullahsafdar740@gmail.com</a><br>
+        <a href="tel:+923116343553">+92 311 6343553</a> · Multan, Pakistan
+      </p>
+      <div class="hero-links">
+        <a href="https://github.com/AbdullahSafdar-dotcom" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/abdullah-safdar-827242403" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.fiverr.com/safdarflutter" target="_blank" rel="noopener">Fiverr</a>
+      </div>
+      <a class="btn btn-primary" href="Abdullah_Safdar_CV.pdf" download>Download CV (PDF)</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 Abdullah Safdar · Built with HTML &amp; CSS · Hosted free on GitHub Pages</p>
+  </div>
+</footer>
+
+</body>
+</html>
